@@ -32,9 +32,14 @@ public class CardInput : MonoBehaviour
                     _posTerminal.Approve();
                     break;
                 
+                case ',':
+                case '.':
+                    _posTerminal.AddChar(".");
+                    break;
+                
                 default:
                 {
-                    if (char.IsNumber(c) || c == '.')
+                    if (char.IsNumber(c))
                     {
                         _posTerminal.AddChar(c.ToString());
                     }

@@ -5,7 +5,7 @@ internal static class MelonAttributes
     internal static class MelonInfo
     {
         internal const string Name = "BetterCardInput";
-        internal const string Version = "1.0.0";
+        internal const string Version = "1.0.1";
         internal const string Author = "Diyagi";
         internal const string DownloadLink = null!;
     }
